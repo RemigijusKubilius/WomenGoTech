@@ -431,22 +431,53 @@ End Fotter
   .menu li a:visited {
     padding: 10px 10px; }
 
+  .img-wrapper {
+    width: 100%;
+    margin-bottom: 20px; }
+
+  .section1 {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
   .talents-wrapper {
-    margin-top: 60px;
-    width: 75%; }
+    margin-top: 30px;
+    width: 90%; }
 
   .mentoriai-text-wrapper-helper {
-    margin-top: 10px; }
+    margin-top: 10px;
+    width: 100%; }
+
+  .mentoriai-text-wrapper {
+    width: 90%;
+    margin: 0px auto;
+    text-align: center; }
 
   .mentoriai-item {
-    width: calc(19% - 45px); }
+    width: calc(32% - 45px); }
+
+  .veikia-content {
+    width: 100%; }
+
+  .text-col-left-wrapper, .text-col-right-wrapper {
+    margin-top: 60px;
+    width: 100%; }
+
+  .section2 {
+    width: 100%;
+    margin-left: 0px; }
+
+  .program-item {
+    width: calc(49% - 84px); }
 
   .komanda-item-wrapper .komanda-item {
-    width: calc(19% - 45px); }
+    width: calc(32% - 45px); }
+
+  .komanda2-item-wrapper .komanda-item {
+    width: calc(32% - 45px); }
 
   .patarejai-item-wrapper .patarejai-item {
-    width: calc(19% - 45px); } }
-@media only screen and (max-width: 769px) {
+    width: calc(32% - 45px); } }
+@media only screen and (max-width: 415px) {
   .menu-wrapper {
     float: none;
     display: inline-block;
@@ -478,7 +509,7 @@ End Fotter
     text-align: center; }
 
   .mentoriai-item {
-    width: calc(32% - 45px); }
+    width: calc(48% - 44px); }
 
   .veikia-content {
     width: 100%; }
@@ -494,7 +525,7 @@ End Fotter
   .img-background {
     background-image: url(../img/pink_bg2.png);
     width: auto;
-    height: 780px;
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -503,13 +534,77 @@ End Fotter
     width: calc(100% - 90px); }
 
   .komanda-item-wrapper .komanda-item {
-    width: calc(32% - 45px); }
+    width: calc(48% - 44px); }
 
   .komanda2-item-wrapper .komanda-item {
-    width: calc(32% - 45px); }
+    width: calc(48% - 44px); }
 
   .patarejai-item-wrapper .patarejai-item {
-    width: calc(32% - 45px); } }
+    width: calc(48% - 44px); } }
+@media only screen and (max-width: 376px) {
+  .menu-wrapper {
+    float: none;
+    display: inline-block;
+    text-align: center; }
+
+  .menu li a:link,
+  .menu li a:visited {
+    padding: 10px 10px; }
+
+  .img-wrapper {
+    width: 100%;
+    margin-bottom: 20px; }
+
+  .section1 {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+  .talents-wrapper {
+    margin-top: 30px;
+    width: 90%; }
+
+  .mentoriai-text-wrapper-helper {
+    margin-top: 10px;
+    width: 100%; }
+
+  .mentoriai-text-wrapper {
+    width: 90%;
+    margin: 0px auto;
+    text-align: center; }
+
+  .mentoriai-item {
+    width: calc(48% - 44px); }
+
+  .veikia-content {
+    width: 100%; }
+
+  .text-col-left-wrapper, .text-col-right-wrapper {
+    margin-top: 20px;
+    width: 100%; }
+
+  .section2 {
+    width: 100%;
+    margin-left: 0px; }
+
+  .img-background {
+    background-image: url(../img/pink_bg2.png);
+    width: auto;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+  .program-item {
+    width: calc(100% - 90px); }
+
+  .komanda-item-wrapper .komanda-item {
+    width: calc(48% - 44px); }
+
+  .komanda2-item-wrapper .komanda-item {
+    width: calc(48% - 44px); }
+
+  .patarejai-item-wrapper .patarejai-item {
+    width: calc(48% - 44px); } }
 @media only screen and (max-width: 321px) {
   .menu-wrapper {
     float: none;
