@@ -13,8 +13,7 @@ Start Header
   float: left; }
 
 .menu-wrapper {
-  float: right;
-  margin-right: -30px; }
+  float: right; }
 
 .menu li {
   list-style: none;
@@ -100,13 +99,13 @@ Start Body
   color: #cbcad0; }
 
 .mentoriai-item-wrapper {
-  margin-right: -62px;
+  margin-right: -25px;
   margin-left: -25px;
   margin-top: 30px; }
 
 .mentoriai-item {
   float: left;
-  width: calc(50% - 450px);
+  width: calc(16% - 43px);
   text-align: center;
   margin: 0 25px; }
 
@@ -200,11 +199,11 @@ Start Body
 
 .komanda-item-wrapper {
   margin-top: 50px;
-  margin-right: -62px;
+  margin-right: -25px;
   margin-left: -25px; }
   .komanda-item-wrapper .komanda-item {
     float: left;
-    width: calc(30% - 210px);
+    width: calc(16% - 43px);
     text-align: center;
     margin: 0 25px; }
     .komanda-item-wrapper .komanda-item .komanda-item-img-wrapper img {
@@ -256,11 +255,11 @@ Start Body
   margin-top: 60px; }
 
 .patarejai-item-wrapper {
-  margin-right: -62px;
+  margin-right: -25px;
   margin-left: -25px; }
   .patarejai-item-wrapper .patarejai-item {
     float: left;
-    width: calc(30% - 210px);
+    width: calc(16% - 43px);
     text-align: center;
     margin: 0 25px; }
     .patarejai-item-wrapper .patarejai-item .patarejai-img-wrapper img {

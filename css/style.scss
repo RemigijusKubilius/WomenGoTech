@@ -18,7 +18,6 @@ Start Header
 
 .menu-wrapper {
     float: right;
-    margin-right: -30px;
 }
 
 .menu li {
@@ -125,16 +124,17 @@ Start Body
 }
 
 .mentoriai-item-wrapper {
-    margin-right: -62px;
+    margin-right: -25px;
     margin-left: -25px;
     margin-top: 30px;
 }
 
 .mentoriai-item {
     float: left;
-    width: calc(50% - 450px);
+    width: calc(16% - 43px);
     text-align: center;
     margin: 0 25px;
+
 }
 
 .mentoriai-item img {
@@ -246,12 +246,12 @@ Start Body
 
 .komanda-item-wrapper {
     margin-top: 50px;
-    margin-right: -62px;
+    margin-right: -25px;
     margin-left: -25px;
 
     .komanda-item {
         float: left;
-        width: calc(30% - 210px);
+        width: calc(16% - 43px);
         text-align: center;
         margin: 0 25px;
 
@@ -330,12 +330,12 @@ Start Body
 
 .patarejai-item-wrapper {
 
-    margin-right: -62px;
+    margin-right: -25px;
     margin-left: -25px;
 
     .patarejai-item {
         float: left;
-        width: calc(30% - 210px);
+        width: calc(16% - 43px);
         text-align: center;
         margin: 0 25px;
 
@@ -549,6 +549,3 @@ End Fotter
 ################
 */
 
-@media only screen and (max-width: 600px) {
-
-}
