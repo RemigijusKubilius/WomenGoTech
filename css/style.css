@@ -421,5 +421,30 @@ End Fotter
 
   .patarejai-item-wrapper .patarejai-item {
     width: calc(16% - 44px); } }
+@media only screen and (max-width: 769px) {
+  .menu-wrapper {
+    float: none;
+    display: inline-block;
+    text-align: center; }
+
+  .menu li a:link,
+  .menu li a:visited {
+    padding: 10px 10px; }
+
+  .talents-wrapper {
+    margin-top: 60px;
+    width: 75%; }
+
+  .mentoriai-text-wrapper-helper {
+    margin-top: 10px; }
+
+  .mentoriai-item {
+    width: calc(19% - 45px); }
+
+  .komanda-item-wrapper .komanda-item {
+    width: calc(19% - 45px); }
+
+  .patarejai-item-wrapper .patarejai-item {
+    width: calc(19% - 45px); } }
 
 /*# sourceMappingURL=style.css.map */
