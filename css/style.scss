@@ -270,14 +270,18 @@ Start Body
         }
 
         .komanda-item-icon-wrapper {
-            li {
-                float: left;
-                list-style: none;
-
-                img {
-                    margin: 0 5px;
-                    max-width: 25px;
-                    height: auto;
+            ul {
+                padding-left: 0;
+                li {
+                    display: inline;
+                    list-style: none;
+                    a {
+                        img {
+                            margin: 5px 5px;
+                            max-width: 25px;
+                            height: auto;
+                        }
+                    }
                 }
             }
         }
@@ -286,12 +290,12 @@ Start Body
 
 .komanda2-item-wrapper {
     margin-top: 50px;
-    margin-right: -62px;
+    margin-right: -25px;
     margin-left: -25px;
 
     .komanda-item {
         float: left;
-        width: calc(30% - 210px);
+        width: calc(16% - 43px);
         text-align: center;
         margin: 0 25px;
 
@@ -310,14 +314,18 @@ Start Body
         }
 
         .komanda-item-icon-wrapper {
-            li {
-                float: left;
-                list-style: none;
-
-                img {
-                    margin: 0 5px;
-                    max-width: 25px;
-                    height: auto;
+            ul {
+                padding-left: 0;
+                li {
+                    display: inline;
+                    list-style: none;
+                    a {
+                        img {
+                            margin: 5px 5px;
+                            max-width: 25px;
+                            height: auto;
+                        }
+                    }
                 }
             }
         }
@@ -354,14 +362,18 @@ Start Body
         }
 
         .patarejai-item-icon-wrapper {
-            li {
-                float: left;
-                list-style: none;
-
-                img {
-                    margin: 0 5px;
-                    max-width: 25px;
-                    height: auto;
+            ul {
+                padding-left: 0;
+                li {
+                    display: inline;
+                    list-style: none;
+                    a {
+                        img {
+                            margin: 5px 5px;
+                            max-width: 25px;
+                            height: auto;
+                        }
+                    }
                 }
             }
         }
@@ -549,3 +561,14 @@ End Fotter
 ################
 */
 
+@media only screen and (max-width: 1025px) {
+    .mentoriai-item {
+        width: calc(16% - 44px);
+    }
+    .komanda-item-wrapper .komanda-item {
+        width: calc(16% - 44px);
+    }
+    .patarejai-item-wrapper .patarejai-item {
+        width: calc(16% - 44px);
+    }
+}

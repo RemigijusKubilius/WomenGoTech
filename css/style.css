@@ -216,21 +216,23 @@ Start Body
     .komanda-item-wrapper .komanda-item .komanda-item-text-wrapper p {
       color: #a9a9a9;
       margin-bottom: 0px; }
-    .komanda-item-wrapper .komanda-item .komanda-item-icon-wrapper li {
-      float: left;
-      list-style: none; }
-      .komanda-item-wrapper .komanda-item .komanda-item-icon-wrapper li img {
-        margin: 0 5px;
-        max-width: 25px;
-        height: auto; }
+    .komanda-item-wrapper .komanda-item .komanda-item-icon-wrapper ul {
+      padding-left: 0; }
+      .komanda-item-wrapper .komanda-item .komanda-item-icon-wrapper ul li {
+        display: inline;
+        list-style: none; }
+        .komanda-item-wrapper .komanda-item .komanda-item-icon-wrapper ul li a img {
+          margin: 5px 5px;
+          max-width: 25px;
+          height: auto; }
 
 .komanda2-item-wrapper {
   margin-top: 50px;
-  margin-right: -62px;
+  margin-right: -25px;
   margin-left: -25px; }
   .komanda2-item-wrapper .komanda-item {
     float: left;
-    width: calc(30% - 210px);
+    width: calc(16% - 43px);
     text-align: center;
     margin: 0 25px; }
     .komanda2-item-wrapper .komanda-item .komanda-item-img-wrapper img {
@@ -243,13 +245,15 @@ Start Body
     .komanda2-item-wrapper .komanda-item .komanda-item-text-wrapper p {
       color: #a9a9a9;
       margin-bottom: 0px; }
-    .komanda2-item-wrapper .komanda-item .komanda-item-icon-wrapper li {
-      float: left;
-      list-style: none; }
-      .komanda2-item-wrapper .komanda-item .komanda-item-icon-wrapper li img {
-        margin: 0 5px;
-        max-width: 25px;
-        height: auto; }
+    .komanda2-item-wrapper .komanda-item .komanda-item-icon-wrapper ul {
+      padding-left: 0; }
+      .komanda2-item-wrapper .komanda-item .komanda-item-icon-wrapper ul li {
+        display: inline;
+        list-style: none; }
+        .komanda2-item-wrapper .komanda-item .komanda-item-icon-wrapper ul li a img {
+          margin: 5px 5px;
+          max-width: 25px;
+          height: auto; }
 
 .patarejai {
   margin-top: 60px; }
@@ -272,13 +276,15 @@ Start Body
     .patarejai-item-wrapper .patarejai-item .patarejai-item-text-wrapper p {
       color: #a9a9a9;
       margin-bottom: 0px; }
-    .patarejai-item-wrapper .patarejai-item .patarejai-item-icon-wrapper li {
-      float: left;
-      list-style: none; }
-      .patarejai-item-wrapper .patarejai-item .patarejai-item-icon-wrapper li img {
-        margin: 0 5px;
-        max-width: 25px;
-        height: auto; }
+    .patarejai-item-wrapper .patarejai-item .patarejai-item-icon-wrapper ul {
+      padding-left: 0; }
+      .patarejai-item-wrapper .patarejai-item .patarejai-item-icon-wrapper ul li {
+        display: inline;
+        list-style: none; }
+        .patarejai-item-wrapper .patarejai-item .patarejai-item-icon-wrapper ul li a img {
+          margin: 5px 5px;
+          max-width: 25px;
+          height: auto; }
 
 .remejai {
   margin-top: 50px;
@@ -406,5 +412,14 @@ Start Fotter
 End Fotter
 ################
 */
+@media only screen and (max-width: 1025px) {
+  .mentoriai-item {
+    width: calc(16% - 44px); }
+
+  .komanda-item-wrapper .komanda-item {
+    width: calc(16% - 44px); }
+
+  .patarejai-item-wrapper .patarejai-item {
+    width: calc(16% - 44px); } }
 
 /*# sourceMappingURL=style.css.map */
