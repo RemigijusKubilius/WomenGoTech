@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="talents-wrapper">
-                    <h4>Empowering Talents to Discover Tech</h4>
+                    <h4>Empowering lol4 Talents to Discover Tech</h4>
                     <p>„Women Go Tech“- pirmoji mentorystės programa Lietuvoje, skirta studentėms ir profesinį kelią pradėjusioms moterims, kurias domina karjera technologijų sektoriuje.</p>
                 </div>
             </div>
