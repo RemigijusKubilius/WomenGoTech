@@ -12,9 +12,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="img-wrapper">
-                    <div class="img">
-                        <img src="img/foto.jpg" alt="">
+                <div class="slider-wrapper">
+                    <div id="owl-demo" class="owl-carousel owl-theme">
+                        <div class="item"><img src="img/foto.jpg"></div>
+                        <div class="item"><img src="img/foto.jpg"></div>
+                        <div class="item"><img src="img/foto.jpg"></div>
                     </div>
                 </div>
             </div>
